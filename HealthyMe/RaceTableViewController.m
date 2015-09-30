@@ -32,6 +32,18 @@
 
     //each race object is a dictionary. we have an array of dictionaries
     NSArray *raceArray = [raceDataDictionary objectForKey:@"races"];
+
+    // for in - to loop through a collection
+    for (NSDictionary *raceDictionary in raceArray) {
+        Race *race = [Race raceWithRaceName:[raceDictionary objectForKey:@"name"]];
+        race.distance = [raceDictionary objectForKey:@"distance"];
+        race.thumbnail = [raceDictionary objectForKey:@"thumbnail"];
+        race.date = [raceDictionary objectForKey:@"date"];
+
+        //create an instance of nsurl for our url property
+        race.url = [NSURL URLWithString:[raceDictionary objectForKey:@"about_url"]];
+        [self.allRaces addObject:race];
+    }
     
 }
 

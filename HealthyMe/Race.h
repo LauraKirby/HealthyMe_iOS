@@ -18,4 +18,11 @@
 @property(nonatomic, strong) NSString *distance;
 @property(nonatomic, strong) NSURL *url;
 
+//Designated Initializer
+- (id) initWithRaceName:(NSString *)raceName;
+
+//Convenience Contructor
+//class method, pass in the argument 'title'
++ (id) raceWithRaceName:(NSString *)raceName;
+
 @end
