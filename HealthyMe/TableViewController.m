@@ -8,6 +8,7 @@
 
 #import "TableViewController.h"
 #import "Race.h"
+#import "WebViewController.h"
 @interface TableViewController ()
 
 @end
@@ -82,9 +83,9 @@
     }
 
 
-    cell.textLabel.text = @"hello";//race.raceName;
-    //    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ - %@", race.raceName, [race formattedDate]];
-    //
+    cell.textLabel.text = race.raceName;
+        cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ - %@", race.raceName, [race formattedDate]];
+    
 
     return cell;
 
@@ -93,15 +94,15 @@
 
 
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-//        if ([segue.identifier isEqualToString:@"showRace"]){
-//            NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-//    
-//            //access race from url
-//            Race *race = [self.allRaces objectAtIndex:indexPath.row];
-//            [segue.destinationViewController setRaceURL:race.url];
-//            
+        if ([segue.identifier isEqualToString:@"showRace"]){
+            NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    
+            //access race from url
+            Race *race = [self.allRaces objectAtIndex:indexPath.row];
+            [segue.destinationViewController setRaceURL:race.url];
 
-        //}
+
+        }
 }
 
 

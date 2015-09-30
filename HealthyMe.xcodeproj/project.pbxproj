@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F480EF11BBCA01D001B9404 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F480EF01BBCA01D001B9404 /* WebViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4FCA54B21BBC82C100B9678C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA54B11BBC82C100B9678C /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4FEEE8861BBBA8C80047D1CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE8851BBBA8C80047D1CD /* main.m */; };
 		4FEEE8891BBBA8C80047D1CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE8881BBBA8C80047D1CD /* AppDelegate.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F480EEF1BBCA01D001B9404 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		4F480EF01BBCA01D001B9404 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		4FCA54B01BBC82C100B9678C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		4FCA54B11BBC82C100B9678C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		4FEEE8811BBBA8C80047D1CD /* HealthyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +78,8 @@
 				4FEEE8841BBBA8C80047D1CD /* Supporting Files */,
 				4FCA54B01BBC82C100B9678C /* TableViewController.h */,
 				4FCA54B11BBC82C100B9678C /* TableViewController.m */,
+				4F480EEF1BBCA01D001B9404 /* WebViewController.h */,
+				4F480EF01BBCA01D001B9404 /* WebViewController.m */,
 			);
 			path = HealthyMe;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FEEE8A31BBC62470047D1CD /* Race.m in Sources */,
+				4F480EF11BBCA01D001B9404 /* WebViewController.m in Sources */,
 				4FCA54B21BBC82C100B9678C /* TableViewController.m in Sources */,
 				4FEEE8891BBBA8C80047D1CD /* AppDelegate.m in Sources */,
 				4FEEE8861BBBA8C80047D1CD /* main.m in Sources */,

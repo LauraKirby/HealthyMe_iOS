@@ -36,16 +36,26 @@
             </objects>
             <point key="canvasLocation" x="1160" y="368"/>
         </scene>
-        <!--View Controller-->
+        <!--Web View Controller-->
         <scene sceneID="xbo-ab-Jcm">
             <objects>
-                <viewController id="2fh-qe-6Vp" sceneMemberID="viewController">
+                <viewController id="2fh-qe-6Vp" customClass="WebViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FpM-IA-15l">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="aRh-5f-RUQ">
+                                <rect key="frame" x="0.0" y="65" width="320" height="503"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="fXT-Ms-j3x"/>
+                    <connections>
+                        <outlet property="webView" destination="aRh-5f-RUQ" id="ST6-3j-yZ4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gFs-GQ-Hp7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
