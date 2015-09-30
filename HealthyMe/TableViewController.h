@@ -1,5 +1,5 @@
 //
-//  RaceTableViewController.h
+//  TableViewController.h
 //  HealthyMe
 //
 //  Created by Laura Kirby on 9/30/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RaceTableViewController : UIViewController
+@interface TableViewController : UITableViewController
 @property (nonatomic, strong)NSMutableArray *allRaces;
 @end

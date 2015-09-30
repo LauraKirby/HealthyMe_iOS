@@ -25,4 +25,7 @@
 //class method, pass in the argument 'title'
 + (id) raceWithRaceName:(NSString *)raceName;
 
+-(NSURL *) thumbnailURL;
+-(NSString *) formattedDate;
+
 @end

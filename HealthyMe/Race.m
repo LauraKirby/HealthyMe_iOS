@@ -34,4 +34,15 @@
     return [[self alloc]initWithRaceName:raceName];
 }
 
+-(NSURL *) thumbnailURL{
+    return  [NSURL URLWithString:self.thumbnail];
+}
+
+-(NSString *) formattedDate{
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
+    [dateFormatter setDateFormat:@"MM/dd/yyyy"];
+    NSDate *tempDate = [dateFormatter dateFromString:self.date];
+    [dateFormatter setDateFormat:@"EE MMM, dd"];
+    return [dateFormatter stringFromDate:tempDate];
+}
 @end

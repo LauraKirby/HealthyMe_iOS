@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FCA54B21BBC82C100B9678C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA54B11BBC82C100B9678C /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4FEEE8861BBBA8C80047D1CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE8851BBBA8C80047D1CD /* main.m */; };
 		4FEEE8891BBBA8C80047D1CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE8881BBBA8C80047D1CD /* AppDelegate.m */; };
 		4FEEE88F1BBBA8C80047D1CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEEE88D1BBBA8C80047D1CD /* Main.storyboard */; };
 		4FEEE8921BBBA8C80047D1CD /* HealthyMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE8901BBBA8C80047D1CD /* HealthyMe.xcdatamodeld */; };
 		4FEEE8941BBBA8C80047D1CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEEE8931BBBA8C80047D1CD /* Assets.xcassets */; };
 		4FEEE8971BBBA8C80047D1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEEE8951BBBA8C80047D1CD /* LaunchScreen.storyboard */; };
-		4FEEE8A01BBC58110047D1CD /* RaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE89F1BBC58110047D1CD /* RaceTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4FEEE8A31BBC62470047D1CD /* Race.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE8A21BBC62470047D1CD /* Race.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FCA54B01BBC82C100B9678C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		4FCA54B11BBC82C100B9678C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		4FEEE8811BBBA8C80047D1CD /* HealthyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEEE8851BBBA8C80047D1CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4FEEE8871BBBA8C80047D1CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		4FEEE8931BBBA8C80047D1CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FEEE8961BBBA8C80047D1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FEEE8981BBBA8C80047D1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FEEE89E1BBC58110047D1CD /* RaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceTableViewController.h; sourceTree = "<group>"; };
-		4FEEE89F1BBC58110047D1CD /* RaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaceTableViewController.m; sourceTree = "<group>"; };
 		4FEEE8A11BBC62470047D1CD /* Race.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Race.h; sourceTree = "<group>"; };
 		4FEEE8A21BBC62470047D1CD /* Race.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Race.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,8 +65,6 @@
 			children = (
 				4FEEE8871BBBA8C80047D1CD /* AppDelegate.h */,
 				4FEEE8881BBBA8C80047D1CD /* AppDelegate.m */,
-				4FEEE89E1BBC58110047D1CD /* RaceTableViewController.h */,
-				4FEEE89F1BBC58110047D1CD /* RaceTableViewController.m */,
 				4FEEE8A11BBC62470047D1CD /* Race.h */,
 				4FEEE8A21BBC62470047D1CD /* Race.m */,
 				4FEEE88D1BBBA8C80047D1CD /* Main.storyboard */,
@@ -75,6 +73,8 @@
 				4FEEE8981BBBA8C80047D1CD /* Info.plist */,
 				4FEEE8901BBBA8C80047D1CD /* HealthyMe.xcdatamodeld */,
 				4FEEE8841BBBA8C80047D1CD /* Supporting Files */,
+				4FCA54B01BBC82C100B9678C /* TableViewController.h */,
+				4FCA54B11BBC82C100B9678C /* TableViewController.m */,
 			);
 			path = HealthyMe;
 			sourceTree = "<group>";
@@ -158,9 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FEEE8A31BBC62470047D1CD /* Race.m in Sources */,
+				4FCA54B21BBC82C100B9678C /* TableViewController.m in Sources */,
 				4FEEE8891BBBA8C80047D1CD /* AppDelegate.m in Sources */,
 				4FEEE8861BBBA8C80047D1CD /* main.m in Sources */,
-				4FEEE8A01BBC58110047D1CD /* RaceTableViewController.m in Sources */,
 				4FEEE8921BBBA8C80047D1CD /* HealthyMe.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
