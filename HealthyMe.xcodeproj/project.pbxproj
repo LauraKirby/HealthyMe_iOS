@@ -14,6 +14,7 @@
 		4FEEE8941BBBA8C80047D1CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEEE8931BBBA8C80047D1CD /* Assets.xcassets */; };
 		4FEEE8971BBBA8C80047D1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEEE8951BBBA8C80047D1CD /* LaunchScreen.storyboard */; };
 		4FEEE8A01BBC58110047D1CD /* RaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE89F1BBC58110047D1CD /* RaceTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4FEEE8A31BBC62470047D1CD /* Race.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE8A21BBC62470047D1CD /* Race.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		4FEEE8981BBBA8C80047D1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FEEE89E1BBC58110047D1CD /* RaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceTableViewController.h; sourceTree = "<group>"; };
 		4FEEE89F1BBC58110047D1CD /* RaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaceTableViewController.m; sourceTree = "<group>"; };
+		4FEEE8A11BBC62470047D1CD /* Race.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Race.h; sourceTree = "<group>"; };
+		4FEEE8A21BBC62470047D1CD /* Race.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Race.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				4FEEE8881BBBA8C80047D1CD /* AppDelegate.m */,
 				4FEEE89E1BBC58110047D1CD /* RaceTableViewController.h */,
 				4FEEE89F1BBC58110047D1CD /* RaceTableViewController.m */,
+				4FEEE8A11BBC62470047D1CD /* Race.h */,
+				4FEEE8A21BBC62470047D1CD /* Race.m */,
 				4FEEE88D1BBBA8C80047D1CD /* Main.storyboard */,
 				4FEEE8931BBBA8C80047D1CD /* Assets.xcassets */,
 				4FEEE8951BBBA8C80047D1CD /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FEEE8A31BBC62470047D1CD /* Race.m in Sources */,
 				4FEEE8891BBBA8C80047D1CD /* AppDelegate.m in Sources */,
 				4FEEE8861BBBA8C80047D1CD /* main.m in Sources */,
 				4FEEE8A01BBC58110047D1CD /* RaceTableViewController.m in Sources */,
