@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4F480EF11BBCA01D001B9404 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F480EF01BBCA01D001B9404 /* WebViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4F480EF41BBCBAF7001B9404 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F480EF31BBCBAF7001B9404 /* SignInViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4F480EF71BBCBB1B001B9404 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F480EF61BBCBB1B001B9404 /* SignUpViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4F480EFA1BBCC539001B9404 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F480EF91BBCC539001B9404 /* User.m */; settings = {ASSET_TAGS = (); }; };
 		4FCA54B21BBC82C100B9678C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA54B11BBC82C100B9678C /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4FEEE8861BBBA8C80047D1CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE8851BBBA8C80047D1CD /* main.m */; };
 		4FEEE8891BBBA8C80047D1CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE8881BBBA8C80047D1CD /* AppDelegate.m */; };
@@ -22,6 +25,12 @@
 /* Begin PBXFileReference section */
 		4F480EEF1BBCA01D001B9404 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		4F480EF01BBCA01D001B9404 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		4F480EF21BBCBAF7001B9404 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		4F480EF31BBCBAF7001B9404 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		4F480EF51BBCBB1B001B9404 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		4F480EF61BBCBB1B001B9404 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		4F480EF81BBCC539001B9404 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		4F480EF91BBCC539001B9404 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		4FCA54B01BBC82C100B9678C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		4FCA54B11BBC82C100B9678C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		4FEEE8811BBBA8C80047D1CD /* HealthyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +96,12 @@
 				4FCA54B11BBC82C100B9678C /* TableViewController.m */,
 				4F480EEF1BBCA01D001B9404 /* WebViewController.h */,
 				4F480EF01BBCA01D001B9404 /* WebViewController.m */,
+				4F480EF21BBCBAF7001B9404 /* SignInViewController.h */,
+				4F480EF31BBCBAF7001B9404 /* SignInViewController.m */,
+				4F480EF51BBCBB1B001B9404 /* SignUpViewController.h */,
+				4F480EF61BBCBB1B001B9404 /* SignUpViewController.m */,
+				4F480EF81BBCC539001B9404 /* User.h */,
+				4F480EF91BBCC539001B9404 /* User.m */,
 			);
 			path = HealthyMe;
 			sourceTree = "<group>";
@@ -221,11 +236,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F480EF41BBCBAF7001B9404 /* SignInViewController.m in Sources */,
 				4FEEE8A31BBC62470047D1CD /* Race.m in Sources */,
+				4F480EFA1BBCC539001B9404 /* User.m in Sources */,
 				4F480EF11BBCA01D001B9404 /* WebViewController.m in Sources */,
 				4FCA54B21BBC82C100B9678C /* TableViewController.m in Sources */,
 				4FEEE8891BBBA8C80047D1CD /* AppDelegate.m in Sources */,
 				4FEEE8861BBBA8C80047D1CD /* main.m in Sources */,
+				4F480EF71BBCBB1B001B9404 /* SignUpViewController.m in Sources */,
 				4FEEE8921BBBA8C80047D1CD /* HealthyMe.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

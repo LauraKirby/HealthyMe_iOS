@@ -19,6 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
+    NSURL *healthyMeLogin = [NSURL URLWithString:@"http://localhost:3000/users"];
+    [[DVSConfiguration sharedConfiguration] setServerURL:healthyMeLogin];
     return YES;
 }
 

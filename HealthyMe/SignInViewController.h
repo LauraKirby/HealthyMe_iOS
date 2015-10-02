@@ -1,5 +1,5 @@
 //
-//  TableViewController.h
+//  SignInViewController.h
 //  HealthyMe
 //
 //  Created by Laura Kirby on 9/30/15.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import <Devise/Devise.h>
+@interface SignInViewController : UIViewController
 
-@interface TableViewController : UITableViewController
-@property (nonatomic, strong)NSMutableArray *allRaces;
 @end

@@ -18,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    [self performSegueWithIdentifier:@"showSignIn" sender:self];
+
     //connect to HealthyMe API, a Rails app route which renders JSON
     NSURL *raceURL = [NSURL URLWithString:@"http://localhost:3000/races.json"];
 
