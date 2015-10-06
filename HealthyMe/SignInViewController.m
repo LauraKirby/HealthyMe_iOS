@@ -7,7 +7,7 @@
 //
 
 #import "SignInViewController.h"
-#import <Devise/Devise.h>
+
 @interface SignInViewController ()
 
 @end

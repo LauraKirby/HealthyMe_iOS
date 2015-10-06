@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Devise/Devise.h>
+
 @interface SignInViewController : UIViewController
 
 @end

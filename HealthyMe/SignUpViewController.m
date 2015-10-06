@@ -7,7 +7,6 @@
 //
 
 #import "SignUpViewController.h"
-#import <Devise/Devise.h>
 
 @interface SignUpViewController ()
 
@@ -29,7 +28,4 @@
     NSLog(@"%@", email);
 }
 
-- (void)registerWithSuccess:(DVSVoidBlock)success failure:(DVSErrorBlock)failure {
-    
-}
 @end

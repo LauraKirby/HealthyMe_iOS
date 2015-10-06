@@ -11,6 +11,11 @@
 		4F480EF41BBCBAF7001B9404 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F480EF31BBCBAF7001B9404 /* SignInViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4F480EF71BBCBB1B001B9404 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F480EF61BBCBB1B001B9404 /* SignUpViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4F480EFA1BBCC539001B9404 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F480EF91BBCC539001B9404 /* User.m */; settings = {ASSET_TAGS = (); }; };
+		4F6354631BC3952900257048 /* RaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6354621BC3952900257048 /* RaceTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4F77CD121BC38C30007F2741 /* fitness.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F77CD0F1BC38C30007F2741 /* fitness.png */; settings = {ASSET_TAGS = (); }; };
+		4F77CD131BC38C30007F2741 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F77CD101BC38C30007F2741 /* profile.png */; settings = {ASSET_TAGS = (); }; };
+		4F77CD141BC38C30007F2741 /* runner.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F77CD111BC38C30007F2741 /* runner.png */; settings = {ASSET_TAGS = (); }; };
+		4F77CD171BC391A0007F2741 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F77CD161BC391A0007F2741 /* ProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4FCA54B21BBC82C100B9678C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA54B11BBC82C100B9678C /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4FEEE8861BBBA8C80047D1CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE8851BBBA8C80047D1CD /* main.m */; };
 		4FEEE8891BBBA8C80047D1CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE8881BBBA8C80047D1CD /* AppDelegate.m */; };
@@ -19,7 +24,6 @@
 		4FEEE8941BBBA8C80047D1CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEEE8931BBBA8C80047D1CD /* Assets.xcassets */; };
 		4FEEE8971BBBA8C80047D1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEEE8951BBBA8C80047D1CD /* LaunchScreen.storyboard */; };
 		4FEEE8A31BBC62470047D1CD /* Race.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE8A21BBC62470047D1CD /* Race.m */; settings = {ASSET_TAGS = (); }; };
-		BFAA3C25A100E4739BFBD008 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4292524F2778E3B39152D11 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,13 @@
 		4F480EF61BBCBB1B001B9404 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		4F480EF81BBCC539001B9404 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		4F480EF91BBCC539001B9404 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		4F6354611BC3952900257048 /* RaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceTableViewController.h; sourceTree = "<group>"; };
+		4F6354621BC3952900257048 /* RaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaceTableViewController.m; sourceTree = "<group>"; };
+		4F77CD0F1BC38C30007F2741 /* fitness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fitness.png; sourceTree = "<group>"; };
+		4F77CD101BC38C30007F2741 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		4F77CD111BC38C30007F2741 /* runner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runner.png; sourceTree = "<group>"; };
+		4F77CD151BC391A0007F2741 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		4F77CD161BC391A0007F2741 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		4FCA54B01BBC82C100B9678C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		4FCA54B11BBC82C100B9678C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		4FEEE8811BBBA8C80047D1CD /* HealthyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +55,6 @@
 		4FEEE8981BBBA8C80047D1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FEEE8A11BBC62470047D1CD /* Race.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Race.h; sourceTree = "<group>"; };
 		4FEEE8A21BBC62470047D1CD /* Race.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Race.m; sourceTree = "<group>"; };
-		5EF33560CF680B5691A4C40F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		85DB3E72C799CCD11BD985E4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		F4292524F2778E3B39152D11 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFAA3C25A100E4739BFBD008 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,8 +73,6 @@
 			children = (
 				4FEEE8831BBBA8C80047D1CD /* HealthyMe */,
 				4FEEE8821BBBA8C80047D1CD /* Products */,
-				510F7E77FBDCC369F564FB7C /* Pods */,
-				AFD91CEE3FF02B7408F6F5A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,9 +90,16 @@
 				4FEEE8871BBBA8C80047D1CD /* AppDelegate.h */,
 				4FEEE8881BBBA8C80047D1CD /* AppDelegate.m */,
 				4FEEE8A11BBC62470047D1CD /* Race.h */,
+				4F6354611BC3952900257048 /* RaceTableViewController.h */,
+				4F6354621BC3952900257048 /* RaceTableViewController.m */,
 				4FEEE8A21BBC62470047D1CD /* Race.m */,
 				4FEEE88D1BBBA8C80047D1CD /* Main.storyboard */,
+				4F77CD151BC391A0007F2741 /* ProfileViewController.h */,
+				4F77CD161BC391A0007F2741 /* ProfileViewController.m */,
 				4FEEE8931BBBA8C80047D1CD /* Assets.xcassets */,
+				4F77CD0F1BC38C30007F2741 /* fitness.png */,
+				4F77CD101BC38C30007F2741 /* profile.png */,
+				4F77CD111BC38C30007F2741 /* runner.png */,
 				4FEEE8951BBBA8C80047D1CD /* LaunchScreen.storyboard */,
 				4FEEE8981BBBA8C80047D1CD /* Info.plist */,
 				4FEEE8901BBBA8C80047D1CD /* HealthyMe.xcdatamodeld */,
@@ -114,23 +126,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		510F7E77FBDCC369F564FB7C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				85DB3E72C799CCD11BD985E4 /* Pods.debug.xcconfig */,
-				5EF33560CF680B5691A4C40F /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AFD91CEE3FF02B7408F6F5A5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F4292524F2778E3B39152D11 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,11 +133,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FEEE89B1BBBA8C80047D1CD /* Build configuration list for PBXNativeTarget "HealthyMe" */;
 			buildPhases = (
-				DBB1713AA56AE4B77A66BF88 /* Check Pods Manifest.lock */,
 				4FEEE87D1BBBA8C80047D1CD /* Sources */,
 				4FEEE87E1BBBA8C80047D1CD /* Frameworks */,
 				4FEEE87F1BBBA8C80047D1CD /* Resources */,
-				C1D72541A3DB3FC20999BC26 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,44 +185,14 @@
 			files = (
 				4FEEE8971BBBA8C80047D1CD /* LaunchScreen.storyboard in Resources */,
 				4FEEE8941BBBA8C80047D1CD /* Assets.xcassets in Resources */,
+				4F77CD121BC38C30007F2741 /* fitness.png in Resources */,
+				4F77CD131BC38C30007F2741 /* profile.png in Resources */,
 				4FEEE88F1BBBA8C80047D1CD /* Main.storyboard in Resources */,
+				4F77CD141BC38C30007F2741 /* runner.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		C1D72541A3DB3FC20999BC26 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DBB1713AA56AE4B77A66BF88 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4FEEE87D1BBBA8C80047D1CD /* Sources */ = {
@@ -237,9 +200,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F480EF41BBCBAF7001B9404 /* SignInViewController.m in Sources */,
+				4F6354631BC3952900257048 /* RaceTableViewController.m in Sources */,
 				4FEEE8A31BBC62470047D1CD /* Race.m in Sources */,
 				4F480EFA1BBCC539001B9404 /* User.m in Sources */,
 				4F480EF11BBCA01D001B9404 /* WebViewController.m in Sources */,
+				4F77CD171BC391A0007F2741 /* ProfileViewController.m in Sources */,
 				4FCA54B21BBC82C100B9678C /* TableViewController.m in Sources */,
 				4FEEE8891BBBA8C80047D1CD /* AppDelegate.m in Sources */,
 				4FEEE8861BBBA8C80047D1CD /* main.m in Sources */,
@@ -352,7 +317,6 @@
 		};
 		4FEEE89C1BBBA8C80047D1CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85DB3E72C799CCD11BD985E4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HealthyMe/Info.plist;
@@ -364,7 +328,6 @@
 		};
 		4FEEE89D1BBBA8C80047D1CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EF33560CF680B5691A4C40F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HealthyMe/Info.plist;

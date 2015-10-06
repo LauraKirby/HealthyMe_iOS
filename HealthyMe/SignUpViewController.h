@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Devise/Devise.h>
 
 @interface SignUpViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *usernameField;
@@ -16,7 +15,6 @@
 
 - (IBAction)signUpButton:(id)sender;
 
-- (void)registerWithSuccess:(DVSVoidBlock)success failure:(DVSErrorBlock)failure;
 @end
 
 
