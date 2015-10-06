@@ -12,11 +12,11 @@
 		4F480EF71BBCBB1B001B9404 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F480EF61BBCBB1B001B9404 /* SignUpViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4F480EFA1BBCC539001B9404 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F480EF91BBCC539001B9404 /* User.m */; settings = {ASSET_TAGS = (); }; };
 		4F6354631BC3952900257048 /* RaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6354621BC3952900257048 /* RaceTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4F6354691BC3A3E500257048 /* PlanTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6354681BC3A3E500257048 /* PlanTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4F77CD121BC38C30007F2741 /* fitness.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F77CD0F1BC38C30007F2741 /* fitness.png */; settings = {ASSET_TAGS = (); }; };
 		4F77CD131BC38C30007F2741 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F77CD101BC38C30007F2741 /* profile.png */; settings = {ASSET_TAGS = (); }; };
 		4F77CD141BC38C30007F2741 /* runner.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F77CD111BC38C30007F2741 /* runner.png */; settings = {ASSET_TAGS = (); }; };
 		4F77CD171BC391A0007F2741 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F77CD161BC391A0007F2741 /* ProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
-		4FCA54B21BBC82C100B9678C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA54B11BBC82C100B9678C /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4FEEE8861BBBA8C80047D1CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE8851BBBA8C80047D1CD /* main.m */; };
 		4FEEE8891BBBA8C80047D1CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEE8881BBBA8C80047D1CD /* AppDelegate.m */; };
 		4FEEE88F1BBBA8C80047D1CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEEE88D1BBBA8C80047D1CD /* Main.storyboard */; };
@@ -37,13 +37,13 @@
 		4F480EF91BBCC539001B9404 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		4F6354611BC3952900257048 /* RaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceTableViewController.h; sourceTree = "<group>"; };
 		4F6354621BC3952900257048 /* RaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaceTableViewController.m; sourceTree = "<group>"; };
+		4F6354671BC3A3E500257048 /* PlanTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanTableViewController.h; sourceTree = "<group>"; };
+		4F6354681BC3A3E500257048 /* PlanTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanTableViewController.m; sourceTree = "<group>"; };
 		4F77CD0F1BC38C30007F2741 /* fitness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fitness.png; sourceTree = "<group>"; };
 		4F77CD101BC38C30007F2741 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
 		4F77CD111BC38C30007F2741 /* runner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runner.png; sourceTree = "<group>"; };
 		4F77CD151BC391A0007F2741 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		4F77CD161BC391A0007F2741 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
-		4FCA54B01BBC82C100B9678C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		4FCA54B11BBC82C100B9678C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		4FEEE8811BBBA8C80047D1CD /* HealthyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEEE8851BBBA8C80047D1CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4FEEE8871BBBA8C80047D1CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +92,8 @@
 				4FEEE8A11BBC62470047D1CD /* Race.h */,
 				4F6354611BC3952900257048 /* RaceTableViewController.h */,
 				4F6354621BC3952900257048 /* RaceTableViewController.m */,
+				4F6354671BC3A3E500257048 /* PlanTableViewController.h */,
+				4F6354681BC3A3E500257048 /* PlanTableViewController.m */,
 				4FEEE8A21BBC62470047D1CD /* Race.m */,
 				4FEEE88D1BBBA8C80047D1CD /* Main.storyboard */,
 				4F77CD151BC391A0007F2741 /* ProfileViewController.h */,
@@ -104,8 +106,6 @@
 				4FEEE8981BBBA8C80047D1CD /* Info.plist */,
 				4FEEE8901BBBA8C80047D1CD /* HealthyMe.xcdatamodeld */,
 				4FEEE8841BBBA8C80047D1CD /* Supporting Files */,
-				4FCA54B01BBC82C100B9678C /* TableViewController.h */,
-				4FCA54B11BBC82C100B9678C /* TableViewController.m */,
 				4F480EEF1BBCA01D001B9404 /* WebViewController.h */,
 				4F480EF01BBCA01D001B9404 /* WebViewController.m */,
 				4F480EF21BBCBAF7001B9404 /* SignInViewController.h */,
@@ -205,7 +205,7 @@
 				4F480EFA1BBCC539001B9404 /* User.m in Sources */,
 				4F480EF11BBCA01D001B9404 /* WebViewController.m in Sources */,
 				4F77CD171BC391A0007F2741 /* ProfileViewController.m in Sources */,
-				4FCA54B21BBC82C100B9678C /* TableViewController.m in Sources */,
+				4F6354691BC3A3E500257048 /* PlanTableViewController.m in Sources */,
 				4FEEE8891BBBA8C80047D1CD /* AppDelegate.m in Sources */,
 				4FEEE8861BBBA8C80047D1CD /* main.m in Sources */,
 				4F480EF71BBCBB1B001B9404 /* SignUpViewController.m in Sources */,

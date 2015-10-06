@@ -40,7 +40,7 @@
         <!--Healthy Me-->
         <scene sceneID="U8c-ql-0wy">
             <objects>
-                <tableViewController id="m81-k6-Voc" sceneMemberID="viewController">
+                <tableViewController id="m81-k6-Voc" customClass="PlanTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="6fM-2A-icf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -192,7 +192,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4vE-Br-4G0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="886" y="1574"/>
+            <point key="canvasLocation" x="930" y="1208"/>
         </scene>
         <!--Healthy Me-->
         <scene sceneID="xbo-ab-Jcm">
@@ -321,10 +321,17 @@
                     <view key="view" contentMode="scaleToFill" id="VQE-Rm-5kz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cHO-c9-QBO">
+                                <rect key="frame" x="0.0" y="64" width="320" height="462"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="pBH-vA-nM6"/>
                     <connections>
+                        <outlet property="profileWebView" destination="cHO-c9-QBO" id="n1U-hD-d39"/>
                         <segue destination="zJv-9j-wrA" kind="push" identifier="showSignIn" id="VUW-Jy-3e6"/>
                     </connections>
                 </viewController>

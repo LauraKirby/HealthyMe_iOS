@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self performSegueWithIdentifier:@"showSignIn" sender:self];
+
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:self.profileURL];
+    [self.profileWebView loadRequest:urlRequest];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -25,3 +29,5 @@
 }
 
 @end
+
+

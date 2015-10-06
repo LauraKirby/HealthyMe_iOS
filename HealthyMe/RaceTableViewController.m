@@ -41,7 +41,7 @@
     for (NSDictionary *raceDictionary in raceArray) {
         Race *race = [Race raceWithRaceName:[raceDictionary objectForKey:@"name"]];
         race.distance = [raceDictionary objectForKey:@"distance"];
-        race.thumbnail = [raceDictionary objectForKey:@"thumbnail"];
+        race.thumbnail = [raceDictionary objectForKey:@"iosImage"];
         race.date = [raceDictionary objectForKey:@"date"];
 
         //create an instance of nsurl for our url property

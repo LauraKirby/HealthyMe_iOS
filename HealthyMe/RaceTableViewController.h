@@ -6,9 +6,9 @@
 //  Copyright © 2015 LK. All rights reserved.
 //
 
-#import "TableViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface RaceTableViewController : TableViewController
+@interface RaceTableViewController : UITableViewController
 @property (nonatomic, strong)NSMutableArray *allRaces;
 
 @end
